@@ -16,6 +16,8 @@ body {
     background-color: #343a40;
     color: #f8f9fa;
     padding: 10px;
+    align-items: center;
+    text-align: center;
   }
   .about-img{
     margin-left: -100px;
