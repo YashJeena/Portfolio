@@ -19,25 +19,25 @@ body {
     color: black;
   }
   /* responsive layout */
-        @media only screen and (max-width: 767px) {
-            /* reduce padding */
-            .w3-padding-32 {
-                padding: 16px;
+ @media only screen and (max-width: 767px) {
+  /* reduce padding */
+  .w3-padding-32 {
+   padding: 16px;
             }
-            /* center align the skills */
-            .w3-row {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            /* adjust the width of skills bars */
-            .w3-light-grey {
-                width: 90%;
-            }
-            /* center align the stats */
-            .w3-quarter {
-                width: 50%;
-            }
-        }
+  /* center align the skills */
+  .w3-row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   }
+  /* adjust the width of skills bars */
+  .w3-light-grey {
+   width: 90%;
+  }
+  /* center align the stats */
+  .w3-quarter {
+   width: 50%;
+  }
+ }
 
  
