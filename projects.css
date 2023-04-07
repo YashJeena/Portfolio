@@ -30,3 +30,9 @@ body {
   #project-preview h2 {
     margin-bottom: 30px;
   }
+   /* Responsive styling */
+   @media (max-width: 991px) {
+    .nav-pills {
+      flex-direction: column;
+    }
+   }
