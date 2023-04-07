@@ -4,7 +4,7 @@ body {
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all 0.4s ease-in-out;
-   
+    
   }
   
   header {
@@ -17,56 +17,48 @@ body {
     color: #f8f9fa;
     padding: 10px;
   }
+  .about-img{
+    margin-left: -100px;
+    right: -60px;
+   }
+   
+   .display-1{
+     font-size: 160px;
+     font-weight: 1000;
+   
+   }
+   
+   .position-absolute{
+     font-weight: 700;
+   
+   }
+   
+   .typed-cursor {
+     font-size: 45px;
+     color: #ffffff;
+   }
+   
+   .blue{
+     background-color: #1c5ce6;
+     color: #ffffff;
+   }
+
+   @media (max-width: 700px) {
+     .about-img{
+       margin-left: 20px;
+       right: 0px;
+       top: 30px;
+      }
+   }
   
  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 70vh;
-    margin: auto;
-    text-align: center;
-    margin: 5vh;
-  }
   
-  .title {
-    color: grey;
-    font-size: 18px;
+   /* Responsive styling */
+   @media (max-width: 991px) {
+    .nav-pills {
+      flex-direction: column;
+    }
   }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
-  .name {
-    margin: 5vh;
-  }
-  #infome {
-    width: 50%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    
-  }
- /* Responsive styling */
-      @media (max-width: 991px) {
-        .nav-pills {
-          flex-direction: column;
-        }
+   
  
   
