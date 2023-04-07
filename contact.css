@@ -17,4 +17,16 @@ body {
     font-size: 22px;
     color: black;
   }
+  /* Responsive styling */
+     @media (max-width: 991px) {
+      .nav-pills {
+        flex-direction: column;
+      }
+     }
+     @media only screen and (max-width: 767px) {
+      /* reduce padding */
+      .w3-padding-32 {
+          padding: 16px;
+      }
+     }
   
